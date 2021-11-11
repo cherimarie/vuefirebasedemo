@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <script type="text/javascript" src="ipsumGenerator.js"></script>
+  <title>Axolotl Ipsum</title>
 </head>
 <body>
 
+<header>
+  <h1>Axolotl Ipsum Generator</h1>
+</header>
+
+<main>
+    <div id="output"><p id="words"></p></div>
+
+    <form id="requester">
+      <label>
+        WØRDS
+        <select name="wordCount">
+          <option value="10">10</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </label>
+      <input type="submit" value="GiVe ThEM tO ME">
+    </form>
+</main>
+<footer>
+  <p>This site is Cheri's terrible idea, and <a href="https://github.com/cherimarie/vuefirebasedemo">the source code can be found on Github</a>.</p>
+</footer>
 
 <script type="module">
   // Import the functions you need from the SDKs you need
